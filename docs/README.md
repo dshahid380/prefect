@@ -56,7 +56,7 @@ We've rebuilt data engineering for the data science era.
 
 Prefect is a new workflow management system, designed for modern infrastructure and powered by the open-source Prefect Core workflow engine. Users organize `Tasks` into `Flows`, and Prefect takes care of the rest.
 
-Read the [docs](/guide/); get the [code](https://github.com/PrefectHQ/prefect); ask us [anything](mailto:help@prefect.io)!
+Read the [docs](https://github.com/PrefectHQ/prefect/tree/master/docs/guide); get the [code](https://github.com/PrefectHQ/prefect); ask us [anything](mailto:help@prefect.io)!
 
 ### Hello, world! 👋
 

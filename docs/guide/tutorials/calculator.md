@@ -145,4 +145,4 @@ For the curious and/or brave, here's a visualization of the computational graph 
 flow.visualize()
 ```
 
-![visualization of a computational graph](/calculator.png)
+![visualization of a computational graph](https://docs.prefect.io/calculator.png)

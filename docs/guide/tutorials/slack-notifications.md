@@ -33,7 +33,7 @@ final_state = f.run()
 
 Which will produce the following messages in your channel of choice:
 
-![slack channel flow notifications](/example_slack.png){.viz-xl .viz-padded}
+![slack channel flow notifications](https://docs.prefect.io/example_slack.png){.viz-xl .viz-padded}
 
 This can be further customized to only report on certain state changes, or you can use this tool as a building block for more complicated notification logic!
 In the near future, you'll be able to directly access the UI from links provided in the notifications, and even manually resume your workflows, all from within Slack!
@@ -45,11 +45,11 @@ Currently, the Prefect slack app can only be installed with a "secret" installat
 
 After navigating to the installation URL, you can select the workspace and specific channel you want Prefect to post to (creating a designated #prefect channel could come in handy here).  For example, if I want notifications to come directly to me in a private message:
 
-![prefect slack integration](/slack_page1.png){.viz-lg}
+![prefect slack integration](https://docs.prefect.io/slack_page1.png){.viz-lg}
 
 After making your decisions, click the green "Authorize" button to proceed.  Assuming all goes well, you should be greeted with a successful landing page that looks something like:
 
-![slack hook authorized](/slack_page2.png){.viz-xl .viz-padded}
+![slack hook authorized](https://docs.prefect.io/slack_page2.png){.viz-xl .viz-padded}
 
 That's it! Save the URL in your secure location of choice; soon, you will be able to automatically import this into your database of Prefect Secrets.
 

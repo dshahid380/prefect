@@ -31,7 +31,7 @@ f.visualize()
 Prefect tasks support basic python operations such as addition, subtraction, and comparisons.
 :::
 
-![underlying flow graph](/output_1_0.svg){.viz-xs .viz-padded}
+![underlying flow graph](https://docs.prefect.io/output_1_0.svg){.viz-xs .viz-padded}
 
 Here we see a nice static representation of the underlying flow graph: the nodes correspond to tasks (labeled with the task name) and the edges to dependencies (labeled with the underlying argument name if data is being passed).  This can be helpful with understanding task dependencies, and possibly debugging your logic without having to execute your tasks.
 
@@ -62,7 +62,7 @@ Hmmm - we received a warning which tells us that the `Div` Task has an upstream 
 f.visualize()
 ```
 
-![output switch condition fail](/output_5_0.svg){.viz-md .viz-padded}
+![output switch condition fail](https://docs.prefect.io/output_5_0.svg){.viz-md .viz-padded}
 
 We can now see what the warning was telling us: the `Div` task has an upstream dependency of "6" which exists outside of the switch condition. Morever, this "6" task has no upstream dependencies so it is considered a "root" task:
 
@@ -94,7 +94,7 @@ flow_state = f.run()
 f.visualize(flow_state=flow_state)
 ```
 
-![flow with colored post-run task states](/flow_visualize_colors.svg){.viz-md .viz-padded}
+![flow with colored post-run task states](https://docs.prefect.io/flow_visualize_colors.svg){.viz-md .viz-padded}
 
 We can see that the `6` task was still executed (as we suspected), and both branches of the `switch` were skipped.
 
